@@ -1,5 +1,5 @@
 /*MAIN BODY*/
- body {
+ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -8,11 +8,19 @@
   background-image: url("Background1.jpg");
   background-position: center center;
   background-size: 100%;
+overflow-x: hidden;
 
+     
  
 }
 
+/* GAMING BORDER */
+body {
+  border: 10px solid #ff3030;
+  border-radius: 40px;
+box-sizing: border-box;
 
+}
 
 html {
   background: radial-gradient(circle at center, #200 0%, #000 100%);
