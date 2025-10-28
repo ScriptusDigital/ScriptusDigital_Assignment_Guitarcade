@@ -18,6 +18,12 @@ color: #ffea00;
   letter-spacing: 5px;
   margin: 20px;
 text-shadow: 6px 6px 0 #cc0000;
+    6px 6px 0 #cc0000,
+    8px 8px 0 #660000,
+    0 0 30px rgba(255, 80, 0, 0.4),
+    0 0 60px rgba(255, 0, 0, 0.2);
+  animation: titlePulse 5s ease-in-out infinite;
+  filter: drop-shadow(0 0 12px rgba(255, 200, 0, 0.4));
 }
 
 header h1 a {color:inherit;
@@ -26,3 +32,18 @@ text-decoration: none;}
 header h1 a:hover
  {opacity: 0.85;
 cursor: pointer;}
+
+
+/*MAIN MENU NAVIGATION*/
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+    flex-wrap: wrap;
+    list-style:none;
+    padding: 0
+    margine: 0 auto;
+    max-width: 90%;
+    gap: 40px;
+}
