@@ -22,7 +22,7 @@ padding: 20px 0px 10px;
 margin: 0;
 }
 
-/*MAIN TITLE*/
+/*MAIN TITLES AND FONTS*/
 h1 {
   position: relative;
   font-family: 'Roboto';
@@ -31,13 +31,10 @@ h1 {
   text-align: center;
   letter-spacing: 5px;
   margin: 20px;
-  text-shadow: 6px 6px 0 #cc0000;
+  text-shadow: 6px 6px 0 #cc0000,
   6px 6px 0 #cc0000,
-  8px 8px 0 #660000,
-  0 0 30px rgba(255, 80, 0, 0.4),
-  0 0 60px rgba(255, 0, 0, 0.2);
-  animation: titlePulse 5s ease-in-out infinite;
-  filter: drop-shadow(0 0 12px rgba(255, 200, 0, 0.4));
+  8px 8px 0 #660000;
+
 }
 
 header h1 a {
@@ -51,7 +48,35 @@ header h1 a:hover {
 }
 
 
+blockquote {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+color: #36b3ff;
+font-size: 1.6em;
+letter-spacing:3px;
+  border-top: 1px solid rgba(13, 141, 233, 0.9);
+  border-bottom: 1px solid rgba(13, 141, 233, 0.9);
+padding: 10px;
+line-height: 1;
+}
+
+h3 {font-family: 'Courier New', Courier, monospace;
+color: #36b3ff;
+  text-align: center;
+  letter-spacing:1.5px;
+  margin: 5px 0px 12px;
+  line-height: 1.2;
+  
+  ;}
+
+
+
+
 /*MAIN MENU NAVIGATION*/
+
+nav li {  display: flex;
+  min-width:120px;
+max-width: 280px;}
 
 nav ul {
   display: flex;
@@ -86,18 +111,7 @@ nav a:hover {
   transform: scale(1.3);
 }
 
-/*FONTS*/
-blockquote {
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-text-align: center;
-color: #36b3ff;
-font-size: 1.6em;
-letter-spacing:3px;
-  border-top: 1px solid rgba(13, 141, 233, 0.9);
-  border-bottom: 1px solid rgba(13, 141, 233, 0.9);
-padding: 10px;
-line-height: 1;
-}
+
 
 
 /*COLUMNS IN MAIN BODY*/
