@@ -11,7 +11,13 @@ body {
 }
 
 /*MAIN MENU NAVIGATION*/
+header {text-align: center;
+position: relative;
+background-image: url(Guitarcore.4.jpg);
+background-size: cover;
+background-position: top;;
 
+}
 
 /*MAIN TITLE*/
 h1 {
