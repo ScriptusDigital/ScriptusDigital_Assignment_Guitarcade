@@ -10,6 +10,9 @@ body {
   background-size: 100%;
 }
 
+/*MAIN MENU NAVIGATION*/
+
+
 /*MAIN TITLE*/
 h1 {
   position: relative;
@@ -53,14 +56,24 @@ nav ul {
 }
 
 nav a  {
-  display: flexl
-  aline-items: center;
+  display: flex;
+  align-items:center;
   justify-content: center;
   width: 100%;
   text-decoration: none;
   Color: #ffea4d;
   background-color: rgba(0, 0, 0, 0.85);
-  border: 2px solid #ffea4d;
+  border: 2px solid #cc0000;
+  border-radius: 10px;
+  padding: 10px 0px;
+  min-height:45px;
+  box-sizing: border-box;
+  line-height:1}
 
 
+nav a:hover {
+  background:  #ffea4d;
+  color:  #000;
+  transform: scale(1.3);
 }
+
