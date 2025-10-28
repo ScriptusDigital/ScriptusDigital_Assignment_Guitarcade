@@ -66,8 +66,7 @@ color: #36b3ff;
   letter-spacing:1.5px;
   margin: 5px 0px 12px;
   line-height: 1.2;
-  
-  ;}
+  }
 
 
 
@@ -144,10 +143,27 @@ padding: 10PX;
 }
 
 .left {
-  display:flex;;flex: 1;
+  flex: 1;
 min-width: 200px;}
 
 .right {
   display:flex;
   flex: 1;
 min-width: 200px;}
+
+
+/*LEFT COLUMN CONFIG*/
+
+.column ul{
+  list-style: none;
+  padding:0;
+  text-align: 0;
+  margin:0;}
+  
+  .column ul li {
+    background: red;
+    margin: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+   
+  }
