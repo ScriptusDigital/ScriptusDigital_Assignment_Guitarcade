@@ -17,7 +17,7 @@ background-image: url(Guitarcore4.jpg);
 background-size: cover;
 background-position: top;
 background-repeat: no-repeat;
-border-bottom: 4px solid #cc0000;
+border-bottom: 4px solid #ff3030;
 padding: 20px 0px 10px;
 margin: 0;
 }
@@ -31,8 +31,8 @@ h1 {
   text-align: center;
   letter-spacing: 5px;
   margin: 20px;
-  text-shadow: 6px 6px 0 #cc0000,
-  6px 6px 0 #cc0000,
+  text-shadow: 6px 6px 0 #ff3030,
+  6px 6px 0 #ff3030,
   8px 8px 0 #660000;
 
 }
@@ -96,7 +96,7 @@ nav a  {
   text-decoration: none;
   Color: #ffea4d;
   background-color: rgba(0, 0, 0, 0.85);
-  border: 2px solid #cc0000;
+  border: 2px solid #ff3030;
   border-radius: 10px;
   padding: 10px 0px;
   min-height:45px;
@@ -127,14 +127,13 @@ nav a:hover {
 
 .column {
    background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 50, 50, 0.3);
+  border: 1px solid rgba(10, 5, 5, 0.3);
 border-radius: 10px;
 padding: 10px; 
 }
 
 
 .main {
-  display:flex;
   padding-top: 5px;
   padding-inline: 20px;
   flex: 3;
@@ -168,8 +167,37 @@ min-width: 200px;}
    border: 1px solid rgba(255, 200, 0, 0.3);}
 
    .column ul li:hover {
-    background: #cc0000;
+    background: #ff3030;
     color: #fff;
     transform: scale(1.1);
    }
+  
+
+
+  /*FOOTER*/
+
+  footer {
+    text-align: center;
+    color: #ffea00;
+    font-size: 1em;
+    padding: 20px;
+    border-top: 2px solid #ff3030;
+  align-items: center;
+  justify-content: center;
+  
   }
+
+footer a {
+  color: #ffea00;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+a:hover {
+  color:black;
+  background-color: #ffea00;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
