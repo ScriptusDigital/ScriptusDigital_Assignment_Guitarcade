@@ -234,11 +234,22 @@ display: block;
 /*SOCIAL LINKS*/
 .social-links {
   align-items: center;
-  
+  display:flex;
+  flex-direction:column;
   gap:15px;
+
 }
 
+.social-links a{
+  color:white;
+position: relative;
+}
 
+.social-links img {
+  width: 100%;
+  border-radius: 8px;
+border: 2px solid rgba(255, 50, 50, 0.3);
+}
 
 
 
