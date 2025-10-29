@@ -1,3 +1,5 @@
+
+
 /*MAIN BODY*/
  html, body {
   width: 100%;
@@ -5,7 +7,7 @@
   padding: 0;
   font-family: Arial;
   color: white;
-  background-image: url("Background1.jpg");
+  background-image: url("Background5.jpg");
   background-position: center center;
   background-size: 100%;
 overflow-x: hidden;
@@ -30,9 +32,9 @@ html {
 /*MAIN MENU NAVIGATION*/
 header {text-align: center;
 position: relative;
-background-image: url(Guitarcore4.jpg);
+background-image: url(GuitarCadeHeader7.jpg);
 background-size: cover;
-background-position: top;
+background-position: center;
 background-repeat: no-repeat;
 border-bottom: 4px solid #ff3030;
 padding: 20px 0px 25px;
@@ -72,20 +74,19 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-align: center;
 color: #36b3ff;
 font-size: 1.6em;
-
+  margin: 15px 5%;
 letter-spacing:3px;
   border-top: 1px solid rgba(13, 141, 233, 0.9);
   border-bottom: 1px solid rgba(13, 141, 233, 0.9);
-padding: 10px;
-line-height: 1;
-margin:10px;
+padding: 5px;
+
 }
 
 h3 {font-family: 'Courier New', Courier, monospace;
 color: #36b3ff;
   text-align: center;
   letter-spacing:1.5px;
-  margin: 5px 0px 12px;
+  margin: 5px 20% 12px;
   line-height: 1.2;
     border-top: 1px solid rgba(13, 141, 233, 0.9);
   border-bottom: 1px solid rgba(13, 141, 233, 0.9);
@@ -173,9 +174,21 @@ padding: 10px;
   flex: 1;
 min-width: 200px;}
 
+.right-group {
+  display:flex;
+  flex:1;
+gap:10px;
+flex-direction: column;
+}
+
+
 .right {
   flex: 1;
-min-width: 200px;}
+min-width: 00px;
+}
+
+
+
 
 
 /*LEFT COLUMN CONFIG*/
@@ -188,13 +201,22 @@ min-width: 200px;}
  
   .column ul li {
     background: rgba(255, 255, 255, 0.05);
-    margin: 15px;
+    margin: 0px;
+    margin-bottom: 10px;
+   
     border-radius: 10px;
     font-weight: bold;
    border: 1px solid rgba(255, 200, 0, 0.3);
   text-align: center;
   }
 
+  .article-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  
 
    .article-list a {
     text-decoration:none;
@@ -224,7 +246,7 @@ display: block;
 
 .article-blurb {
   font-family: Arial;
-  font-size:0.em;
+  font-size:0.9em;
   line-height: 1.4;
   margin:0
 }
@@ -235,7 +257,7 @@ display: block;
   align-items: center;
   display:flex;
   flex-direction:column;
-  gap:15px;
+  gap:10px;
 
 }
 
@@ -267,18 +289,8 @@ text-decoration: none;;
 }
 
 
-/*RIGHT COLUMN CONFIG*/
-/*GEAR SECTION*/
-.right-wrapper {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  min-width: 220px;
-  gap: 20px;
-
-}
-
-.gear-container {
+.social-container {
+  min-width: 200px;
  background: rgba(255, 255, 255, 0.05);
     border: 2px solid rgba(255, 50, 50, 0.3);
 text-align: center;
@@ -286,26 +298,6 @@ border-radius:10px;
 padding: 10px 14px 14px;
 }
 
-.gear-container h3 {
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-}
-
-.gear-container .article-list li {
-      background: rgba(255, 255, 255, 0.05);
-    margin: 15px;
-    border-radius: 10px;
-    font-weight: bold;
-   border: 1px solid rgba(255, 200, 0, 0.3);
-  text-align: center;
-font-size: 0.95em;
-}
-
-.gear-container .article-list li:hover {
-  background: #ff3030;
-  color: #fff;
-  transform: scale(1.07);
-}
   /*FOOTER*/
 
   footer {
