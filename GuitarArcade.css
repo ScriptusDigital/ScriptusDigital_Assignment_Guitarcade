@@ -243,6 +243,7 @@ display: block;
   color:white;
 position: relative;
 width: 100%;
+max-width: 220px;
 text-align: center;
 text-decoration: none;;
 }
@@ -261,12 +262,50 @@ text-decoration: none;;
   position: absolute;
   top: 35%;
   left:50%;
-  font-family: 'Courier New', Courier, monospace
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1em;
 }
 
 
+/*RIGHT COLUMN CONFIG*/
+/*GEAR SECTION*/
+.right-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 220px;
+  gap: 20px;
 
+}
+
+.gear-container {
+ background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 50, 50, 0.3);
+text-align: center;
+border-radius:10px;
+padding: 10px 14px 14px;
+}
+
+.gear-container h3 {
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.gear-container .article-list li {
+      background: rgba(255, 255, 255, 0.05);
+    margin: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+   border: 1px solid rgba(255, 200, 0, 0.3);
+  text-align: center;
+font-size: 0.95em;
+}
+
+.gear-container .article-list li:hover {
+  background: #ff3030;
+  color: #fff;
+  transform: scale(1.07);
+}
   /*FOOTER*/
 
   footer {
@@ -304,14 +343,7 @@ p a {
 }
 
 
-.right-wrapper {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  min-width: 220px;
-  gap: 20px;
 
-}
 
 
 
