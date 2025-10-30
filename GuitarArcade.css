@@ -470,11 +470,21 @@ nav a {
 /*EMBEDDED VIDEO*/
 .video-container {
   position: relative;
-  width: 90%;
+  width: 100%;
   max-width: 800px;
   margin: 30px auto;
   border: 2px solid #FF000099;
+  align-items: center;
   border-radius: 10px;
   overflow: hidden;
+  display:flex;
 }
 
+.video-container iframe {
+width: 100%;
+border:none;
+display:block;
+object-fit: cover;
+
+
+}
