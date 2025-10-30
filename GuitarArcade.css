@@ -468,24 +468,25 @@ nav a {
 
 /*EMBEDDED VIDEO*/
 .video-container {
-  position: relative;
-  width: 100%;
+position:relative;
+width: 90%;
   max-width: 800px;
-
+    margin: 30px auto;
   border: 2px solid #FF000099;
-  align-items: center;
-  border-radius: 10px;
-  overflow: hidden;
-  display:flex;
+    border-radius: 10px;
+   overflow: hidden;
+     aspect-ratio: 16 / 9;
 }
 
-.video-container iframe {
 
+.video-container iframe {
+aspect-ratio: auto;
+position: absolute;
+inset:0;
 width: 100%;
 height: 100%;
 border:none;
-
-object-fit: cover;
-
+display:block;
 
 }
+
