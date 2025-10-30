@@ -1,3 +1,6 @@
+
+
+
 /*MAIN BODY*/
 html,
 body {
@@ -6,7 +9,7 @@ body {
   padding: 0;
   font-family: Arial;
   color: white;
-  background-image: url("Background5.jpg");
+  background-image: url("Background11.jpg");
   background-position: center center;
   background-size: cover;
   overflow-x: hidden;
@@ -71,7 +74,7 @@ h1 {
       8px 8px #660000,
       0 0 25px #ff640066,
       0 0 60px #ff000040;
-  
+
   }
 
   50% {
@@ -80,7 +83,7 @@ h1 {
       10px 10px 0 #990000,
       0 06px 55px #ffb400bf,
       0 0 110px #ff3c0099;
-  
+
   }
 }
 
@@ -412,9 +415,53 @@ p a {
     justify-content: center;
     gap: 0px;
   }
-    nal a {
-  font-size: 0.95em;
-  padding: 10px 20px;;
+
+  nav a {
+    font-size: 0.95em;
+    padding: 10px 20px;
+    ;
   }
+}
+
+@media (max-width: 700px) {
+  nal ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width:900px){
+  nav ul {gap:4px;
+   flex-direction: column;
+    align-items: center;
+  padding:0;
+margin:0 }
+
+  nav li {
+    flex: 1 1 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding: 6px 0;
+    margin: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+}
+
+nav a {
+  padding: 8px 0;
+}
+
+@media (max-width: 600px) {
+.article-title {
+  font-size:0.9em;
+}
+
+.article-blurb {
+  font-size: 0.75em;
+}
+
 }
 
