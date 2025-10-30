@@ -468,11 +468,12 @@ nav a {
 
 /*EMBEDDED VIDEO*/
 .video-container {
-  display: inline-block;
+  position: relative;
+  display: blox;
 justify-content: center;
 align-items: center;
-width: 100%;
-  max-width: 800px;
+width: fit-content;
+  max-width: 100%;
   border: 2px solid #FF000099;
     border-radius: 10px;
    overflow: hidden;
@@ -480,8 +481,9 @@ width: 100%;
 
 
 .video-container iframe {
+
 border:none;
 display:block;
-
+aspect-ratio: inherit;
 }
 
