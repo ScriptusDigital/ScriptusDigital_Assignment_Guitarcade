@@ -98,7 +98,7 @@ header h1 a:hover {
 
 
 blockquote {
-  font-family: 'Audiowide' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Audiowide', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
   color: #36b3ff;
   font-size: 1.6em;
@@ -111,7 +111,7 @@ blockquote {
 }
 
 h3 {
-  font-family: 'Audiowide' 'Courier New', Courier, monospace;
+  font-family: 'Audiowide', 'Courier New', Courier, monospace;
   color: #36b3ff;
   text-align: center;
   letter-spacing: 1.5px;
@@ -480,9 +480,11 @@ nav a {
 }
 
 .video-container iframe {
+
 width: 100%;
+height: 100%;
 border:none;
-display:block;
+
 object-fit: cover;
 
 
