@@ -469,21 +469,16 @@ nav a {
 /*EMBEDDED VIDEO*/
 .video-container {
   position: relative;
-  display: blox;
+  display: flex;
 justify-content: center;
+margin: 0 auto;
 align-items: center;
 width: fit-content;
   max-width: 100%;
-  border: 2px solid #FF000099;
+  border: 2px solid #ff3030;
     border-radius: 10px;
    overflow: hidden;
 }
 
 
-.video-container iframe {
-
-border:none;
-display:block;
-aspect-ratio: inherit;
-}
 
