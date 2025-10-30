@@ -1,5 +1,7 @@
 
 
+
+
 /*MAIN BODY*/
  html, body {
   width: 100%;
@@ -9,12 +11,13 @@
   color: white;
   background-image: url("Background5.jpg");
   background-position: center center;
-  background-size: 100%;
+  background-size: cover;
 overflow-x: hidden;
-
-     
- 
 }
+
+
+
+
 
 /* GAMING BORDER */
 body {
@@ -76,8 +79,8 @@ color: #36b3ff;
 font-size: 1.6em;
   margin: 15px 5%;
 letter-spacing:3px;
-  border-top: 1px solid rgba(13, 141, 233, 0.9);
-  border-bottom: 1px solid rgba(13, 141, 233, 0.9);
+     border-top: 2px solid #36b3ff;
+  border-bottom: 2px solid #36b3ff;
 padding: 5px;
 
 }
@@ -86,10 +89,10 @@ h3 {font-family: 'Courier New', Courier, monospace;
 color: #36b3ff;
   text-align: center;
   letter-spacing:1.5px;
-  margin: 5px 20% 12px;
+  margin: 5px 10px 12px;
   line-height: 1.2;
-    border-top: 1px solid rgba(13, 141, 233, 0.9);
-  border-bottom: 1px solid rgba(13, 141, 233, 0.9);
+    border-top: 2px solid #36b3ff;
+  border-bottom: 2px solid #36b3ff;
 padding: 5px;
   }
 
@@ -99,7 +102,7 @@ padding: 5px;
 /*MAIN MENU NAVIGATION*/
 
 nav li {  display: flex;
-  min-width:120px;
+  min-width:125px;
 max-width: 280px;}
 
 nav ul {
@@ -133,7 +136,9 @@ nav a  {
 
 nav a:hover {
   background:  #ffea4d;
-  color:  #000;
+  color:  #000; 
+  padding: 0.8em;
+    font-weight: bold;
   transform: scale(1.2);
    transition: all 0.3s ease;
 }
@@ -155,7 +160,7 @@ nav a:hover {
 
 .column {
    background: rgba(255, 255, 255, 0.05);
-    border: 2px solid rgba(255, 50, 50, 0.3);
+    border: 2px solid #ff3030;;
 
 border-radius: 10px;
 padding: 10px; 
@@ -183,10 +188,10 @@ flex-direction: column;
 
 
 .right {
-  flex: 1;
-min-width: 00px;
+text-align: center;
+min-width: 200px;
+ 
 }
-
 
 
 
@@ -225,7 +230,7 @@ min-width: 00px;
 .article-list li:hover {
   background: #ff3030;
   color: #fff;
-  transform: scale(1.07);
+  transform: scale(1.02);
 }
 
 .article-list li {
@@ -256,54 +261,71 @@ display: block;
 .social-links {
   align-items: center;
   display:flex;
+    width: 100%;
   flex-direction:column;
   gap:10px;
-
 }
 
+
+
+
+
 .social-links a{
+ font-weight: bold;
+  justify-content: center;
+
   color:white;
 position: relative;
 width: 100%;
 max-width: 220px;
 text-align: center;
-text-decoration: none;;
+text-decoration: none;
 }
 
 .social-links img {
   width: 100%;
   border-radius: 8px;
    border: 2px solid rgba(255, 200, 0, 0.3);
+  
 }
 
+
+  
 .social-links a:hover img {
-  transform: scale(1.06);
+  transform: scale(1.02);
+  content: url('SocialHover3.jpg');
+   transition: all 0.5s ease;
+   border: 2px solid #ff3030;
+
 }
+
+
+.social-links a:hover span {  
+  color:black;
+  font-weight: bold;
+   transition: all 0.6s ease;
+  transform: scale(1.02);}
+
 
 .social-links span {
   position: absolute;
   top: 35%;
-  left:50%;
-  font-family: 'Courier New', Courier, monospace;
+  left:40%;
+  font-family: Arial;
   font-size: 1em;
 }
 
 
-.social-container {
-  min-width: 200px;
- background: rgba(255, 255, 255, 0.05);
-    border: 2px solid rgba(255, 50, 50, 0.3);
-text-align: center;
-border-radius:10px;
-padding: 10px 14px 14px;
-}
+
+
+
 
   /*FOOTER*/
 
   footer {
     text-align: center;
     color: #ffea00;
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 20px;
     border-top: 2px solid #ff3030;
   align-items: center;
@@ -334,8 +356,19 @@ p a {
   transition: all 0.3s ease;
 }
 
+.insert-coin {
+  text-align: center;
 
+  font-family: 'Press Start 2P', monospace;
+  color: #ffea00;
+  border: 2px solid #ff3030;
+  padding: 10px;
+  background: #000;
+  animation: blinkCoin 2s steps(10, start) infinite;
+  border-radius: 4px;
+}
 
-
-
+@keyframes blinkCoin {
+  90% { opacity: 0; }
+}
 
