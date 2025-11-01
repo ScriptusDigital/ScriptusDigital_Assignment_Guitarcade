@@ -84,7 +84,7 @@ h1 {
     text-shadow:
       4px 4px 0 #ff3300,
       10px 10px 0 #990000,
-      0 06px 55px #ffb400bf,
+      0 6px 55px #ffb400bf,
       0 0 110px #ff3c0099;
 
   }
@@ -102,7 +102,7 @@ header h1 a:hover {
 
 
 blockquote {
-  font-family: Audiowide,'sans-serif';
+  font-family: 'Audiowide','sans-serif';
   text-align: center;
   color: #36b3ff;
   font-size: 1.6em;
@@ -115,15 +115,16 @@ blockquote {
 }
 
 h3 {
-  font-family: Audiowide, 'sans-serif';
+  font-family: 'Audiowide', 'sans-serif';
   color: #36b3ff;
   text-align: center;
   letter-spacing: 1.5px;
-  margin: 5px 10px 12px;
+  margin: 5px 20px 10px;
   line-height: 1.2;
   border-top: 2px solid #36b3ff;
   border-bottom: 2px solid #36b3ff;
   padding: 5px;
+  
 }
 
 
@@ -156,7 +157,7 @@ nav a {
   width: 100%;
   font-family: Russo One, sans-serif;
   text-decoration: none;
-  Color: #ffea4d;
+  color: #ffea4d;
   background-color: black;
   border: 2px solid #ff3030;
   border-radius: 10px;
@@ -184,6 +185,7 @@ nav a:hover {
 .container {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: space-between;
   width: 90%;
   margin: 10px auto 30px;
@@ -202,7 +204,7 @@ nav a:hover {
 .main {
   padding-top: 5px;
   padding-inline: 20px;
-  flex: 3 1;
+  flex: 3 1 0;
 
 }
 
@@ -493,26 +495,23 @@ margin:0 auto;
 
 /*LESSON PAGE TABLE*/
 
-table-container1 {
+.table-container1 {
   width: 100%;
-  border-radius: 10px;
-  overflow-x: hidden;
-  margin: 20px 0;
-  padding-inline: 5px;
+
+  margin: 0px 0;
 }
 
 table 
 {
   width: 100%;
-
-border-collapse: collapse;
 table-layout: fixed;
-border: 4px solid #ff32324d;
-
+border-radius: 8px;
 background: #FFFFFF0D;
-color:#ffea4d;
+border-collapse: collapse;
+color: #ffea4d;
+
 overflow: hidden;
-margin: 20px 0;
+margin: 5px 0;
 font-size: 0.9em;
 }
 
@@ -520,17 +519,30 @@ font-size: 0.9em;
 /*LESSON PAGE TABLE ELEMENTS*/
 td {
 padding: 6px 8px; 
-border-bottom: 1pc solid ;
+border-bottom: 1px solid #ff32324d;
+color: #e7aa69;
 text-align: left;
 overflow-wrap: break-word;
+border-bottom: 1px solid #ff3030;
 }
 
 th {
 padding: 6px 8px; 
-border-bottom: 1pc solid ;
+border-bottom: 1px solid #ff3030;
+
 text-align: left;
 overflow-wrap: break-word;
-background: #FFFFFF0D;
+background: #ff303033;
+
+font-family:'Russo One', sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 0.9em;
+}
+
+tr:hover {
+  background: #ff000026;
+  transition: 0.2s ease;
 }
 
 
