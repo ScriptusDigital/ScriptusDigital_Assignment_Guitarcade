@@ -470,7 +470,7 @@ nav a {
 
 }
 
-/*EMBEDDED VIDEO*/
+/*EMBEDDEDED ELEMNTS VIDEO*/
 .video-container {
   position: relative;
   display: flex;
@@ -490,4 +490,33 @@ margin:0 auto;
    max-width: 100%;
   display: block;
 }
+
+/*LESSON PAGE TABLE*/
+
+table-container1 {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 20px 0;
+  padding-inline: 5px;
+}
+
+table 
+{
+  width: 100%;
+border-collapse: collapse;
+table-layout: fixed;
+border: 1px solid #ff32324d;
+overflow: hidden;
+margin: 20px 0;
+font-size: 0.98em;
+}
+
+
+/*LESSON PAGE TABLE ELEMENTS*/
+td {
+padding: 6px 8px; 
+border-bottom: 1pc solid ;
+
+}
+
 
