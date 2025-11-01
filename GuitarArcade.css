@@ -70,6 +70,7 @@ h1 {
 /*  GLOW SHADOW EFFECT BASED ON https://www.w3schools.com/howto/howto_css_glowing_text.asp?utm_source=chatgpt.com */
 
 @keyframes titlepulse {
+
   0%,
   100% {
     text-shadow:
@@ -102,7 +103,7 @@ header h1 a:hover {
 
 
 blockquote {
-  font-family: 'Audiowide','sans-serif';
+  font-family: 'Audiowide', 'sans-serif';
   text-align: center;
   color: #36b3ff;
   font-size: 1.6em;
@@ -119,12 +120,13 @@ h3 {
   color: #36b3ff;
   text-align: center;
   letter-spacing: 1.5px;
-  margin: 5px 20px 10px;
+  margin: 13px 0px 10px;
+
   line-height: 1.2;
   border-top: 2px solid #36b3ff;
   border-bottom: 2px solid #36b3ff;
   padding: 5px;
-  
+
 }
 
 
@@ -202,11 +204,11 @@ nav a:hover {
 }
 
 .main {
-  padding-top: 5px;
   padding-inline: 20px;
   flex: 3 1 0;
-
 }
+
+
 
 .left {
   flex: 1;
@@ -216,12 +218,14 @@ nav a:hover {
 .right-group {
   display: flex;
   flex: 1;
+
   gap: 10px;
   flex-direction: column;
 }
 
 
 .right {
+
   text-align: center;
   min-width: 200px;
 
@@ -397,7 +401,7 @@ https://www.geeksforgeeks.org/css/how-to-create-blinking-text-using-css/?utm_sou
 
 .insert-coin {
   text-align: center;
-  font-family:  monospace,'sans-serif';
+  font-family: monospace, 'sans-serif';
   font-size: 15px;
   color: #ffea00;
   border: 2px solid #ff3030;
@@ -426,7 +430,7 @@ https://www.geeksforgeeks.org/css/how-to-create-blinking-text-using-css/?utm_sou
   nav a {
     font-size: 0.95em;
     padding: 10px 20px;
-    
+
   }
 }
 
@@ -438,12 +442,14 @@ https://www.geeksforgeeks.org/css/how-to-create-blinking-text-using-css/?utm_sou
   }
 }
 
-@media (max-width:900px){
-  nav ul {gap:4px;
-   flex-direction: column;
+@media (max-width:900px) {
+  nav ul {
+    gap: 4px;
+    flex-direction: column;
     align-items: center;
-  padding:0;
-margin:0 }
+    padding: 0;
+    margin: 0
+  }
 
   nav li {
     flex: 1 1 100%;
@@ -462,13 +468,13 @@ nav a {
 }
 
 @media (max-width: 600px) {
-.article-title {
-  font-size:0.9em;
-}
+  .article-title {
+    font-size: 0.9em;
+  }
 
-.article-blurb {
-  font-size: 0.75em;
-}
+  .article-blurb {
+    font-size: 0.75em;
+  }
 
 }
 
@@ -476,20 +482,20 @@ nav a {
 .video-container {
   position: relative;
   display: flex;
-justify-content: center;
-align-items: center;
-width: fit-content;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
   max-width: 100%;
   border: 2px solid #ff3030;
-    border-radius: 10px;
-   overflow: hidden;
-margin:0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
 
 }
 
 .video-container iframe {
   margin: -10px;
-   max-width: 100%;
+  max-width: 100%;
   display: block;
 }
 
@@ -501,43 +507,42 @@ margin:0 auto;
   margin: 0px 0;
 }
 
-table 
-{
+table {
   width: 100%;
-table-layout: fixed;
-border-radius: 8px;
-background: #FFFFFF0D;
-border-collapse: collapse;
-color: #ffea4d;
+  table-layout: fixed;
+  border-radius: 8px;
+  background: #FFFFFF0D;
+  border-collapse: collapse;
+  color: #ffea4d;
 
-overflow: hidden;
-margin: 5px 0;
-font-size: 0.9em;
+  overflow: hidden;
+  margin: 5px 0;
+  font-size: 0.9em;
 }
 
 
 /*LESSON PAGE TABLE ELEMENTS*/
 td {
-padding: 6px 8px; 
-border-bottom: 1px solid #ff32324d;
-color: #e7aa69;
-text-align: left;
-overflow-wrap: break-word;
-border-bottom: 1px solid #ff3030;
+  padding: 6px 8px;
+  border-bottom: 1px solid #ff32324d;
+  color: #e7aa69;
+  text-align: left;
+  overflow-wrap: break-word;
+  border-bottom: 1px solid #ff3030;
 }
 
 th {
-padding: 6px 8px; 
-border-bottom: 1px solid #ff3030;
+  padding: 6px 8px;
+  border-bottom: 1px solid #ff3030;
 
-text-align: left;
-overflow-wrap: break-word;
-background: #ff303033;
+  text-align: left;
+  overflow-wrap: break-word;
+  background: #ff303033;
 
-font-family:'Russo One', sans-serif;
-text-transform: uppercase;
-letter-spacing: 1px;
-font-size: 0.9em;
+  font-family: 'Russo One', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9em;
 }
 
 tr:hover {
@@ -546,3 +551,145 @@ tr:hover {
 }
 
 
+
+
+/*JOIN THE BAND SIGN UP FORM FORMAT
+based on https://www.w3schools.com/html/html_forms.asp
+*/
+
+#joinpage .main p {
+  max-width: 600px;
+  margin:  auto;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom:15px;
+    margin-top:15px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 10px auto;
+  font-family: 'Orbitron', sans-serif;
+  color: #ffea4d
+}
+
+.signup-form fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.signup-form legend {
+  font-family: 'Russo One', sans-serif;
+  font-size: 1em;
+  color: #ffea00;
+  margin-bottom: 10px;
+  letter-spacing: 1;
+  text-transform: uppercase
+}
+
+.signup-form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  color: #36b3ff;
+  font-size: 1em;
+  border: none;
+  text-transform: uppercase;
+
+}
+
+/*INPUTSS*/
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  border: 2px solid #ff3030;
+  border-radius: 8px;
+  ;
+  font-size: 1em;
+  color: #ffea4d;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  margin: 5px 0 15px 0;
+}
+
+.signup-form select {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  border: 2px solid #ff3030;
+  border-radius: 8px;
+  ;
+  font-size: 1em;
+  color: #ffea4d;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  margin: 5px 0 15px 0;
+}
+
+.signup-form textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  border: 2px solid #ff3030;
+  border-radius: 8px;
+  ;
+  font-size: 1em;
+  color: #ffea4d;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  margin: 5px;
+}
+
+/*FORM BUTTONS*/
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+flex-wrap: wrap;
+}
+
+.signup-form input[type="submit"] {
+  width: 45%;
+  margin: 15px 1%;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #ff3030;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+min-width: 150px; 
+flex-shrink: 1;
+flex-basis: 200px;
+}
+
+
+.signup-form input[type="reset"] {
+  width: 45%;
+  margin: 15px 1%;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #ff3030;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+min-width: 150px;
+flex-shrink: 1;
+flex-basis: 200px;
+}
+
+.signup-form input[type="submit"]:hover {
+  background-color: #ffea00;
+  color: black;
+}
+
+.signup-form input[type="reset"]:hover {
+  background-color: #ffea00;
+  color: black;
+}

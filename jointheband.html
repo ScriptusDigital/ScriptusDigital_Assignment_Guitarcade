@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Guitarcade</title>
-  <meta name="description" content="Where tone travel meets time travel">
+  <title>Guitarcade - Join the band</title>
+  <meta name="description" content="Sign up for the Guitarcade newsletter for news, review and exclusive offers.">
   <link rel="icon" type="image/jpeg" href="favicon1.jpg">
   <link rel="apple-touch-icon" href="favicon1.jpg">
 
@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body id="joinpage">
   <header>
 
     <h1><a href="index.html">GUITARCADE</a></h1>
@@ -29,15 +29,54 @@
     </nav>
   </header>
 
-  <blockquote>BACK TO THE FRETURE</blockquote>
+  <blockquote>JOIN THE BAND</blockquote>
 
   <div class="container">
-   
-
-
     <div class="column main">
+        
+<h3>Sign up for the Guitarcade Newsletter</h3>
+
+<p>Want exclusive access to retro tone secrets, new lessons, and backstage content? Drop your details below and become part of the Guitarcade crew</p>
+ 
+<form class="signup-form" 
+ action="nothing" 
+ method="POST"
+ name="joinForm"
+ id="joinForm">
+ 
+ <fieldset>
+    <legend>Band Signup Details</legend>
+    <label for="name" accesskey="N"></label>
+    <input type="text" id="name" name="name" placeholder="Your rockstar name" required 
+    tabindex="1">
+
+       <label for="email" accesskey="E"></label>
+    <input type="email" id="email" name="email" placeholder="Your email" required 
+    tabindex="2">
+
+    <label for="instrument" accesskey="I"></label>
+    <select id="instrument" name="instrument" 
+    tabindex="3">
+    <option value="nothing">Select your weapon</option>
+<option>Guitar</option>
+<option>Bass</option>
+<option>Drums</option>
+<option>Vocals</option>
+<option>Keys</option>
+    </Select>
+<label for="message" accesskey="M">Message</label>
+<textarea id="message" name="message" rows="4" placeholder="Tell us your favourite riff" tabindex="4">
+
+</textarea>
+<div class="form-buttons">
+<input type="submit" value="Join the band"> 
+<input type="reset" value="Reset the form"> 
+</div>
+ </fieldset>
 
 
+
+    </form>
     </div>
 
     <div class="right-group">
