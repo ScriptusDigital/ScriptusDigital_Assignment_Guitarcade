@@ -1,5 +1,8 @@
 /*FONT IMPORT*/
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Orbitron:wght@500;700&family=Audiowide&family=Monoton&family=Press+Start+2P&display=swap');
+
+
+
 /*MAIN BODY*/
 html,
 body {
@@ -9,11 +12,10 @@ body {
   font-family: Orbitron, sans-serif;
   color: white;
   background-image: url("Background11.jpg");
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   overflow-x: hidden;
 }
-
 
 
 
@@ -35,7 +37,7 @@ html {
 header {
   text-align: center;
   position: relative;
-  background-image: url(GuitarCadeHeader7.jpg);
+  background-image: url(GuitarCadeHeader13.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,7 +49,7 @@ header {
 /*MAIN TITLES AND FONTS*/
 h1 {
   position: relative;
-  font-family: 'Russo One', arial;
+  font-family: Russo One, arial;
   line-height: 1;
   font-size: clamp(1rem, 8vw, 11rem);
 
@@ -64,8 +66,10 @@ h1 {
   filter: drop-shadow(0 0 12px #FFC80066)
 }
 
-@keyframes titlepulse {
 
+/*  GLOW SHADOW EFFECT BASED ON https://www.w3schools.com/howto/howto_css_glowing_text.asp?utm_source=chatgpt.com */
+
+@keyframes titlepulse {
   0%,
   100% {
     text-shadow:
@@ -98,7 +102,7 @@ header h1 a:hover {
 
 
 blockquote {
-  font-family: 'Audiowide', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Audiowide,'sans-serif';
   text-align: center;
   color: #36b3ff;
   font-size: 1.6em;
@@ -111,7 +115,7 @@ blockquote {
 }
 
 h3 {
-  font-family: 'Audiowide', 'Courier New', Courier, monospace;
+  font-family: Audiowide, 'sans-serif';
   color: #36b3ff;
   text-align: center;
   letter-spacing: 1.5px;
@@ -125,7 +129,7 @@ h3 {
 
 
 
-/*MAIN MENU NAVIGATION*/
+/*MAIN MENU NAVIGATION LINKS*/
 
 nav li {
   display: flex;
@@ -141,7 +145,7 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 100%;
   gap: 40px;
 }
 
@@ -150,7 +154,7 @@ nav a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  font-family: 'Russo One', sans-serif;
+  font-family: Russo One, sans-serif;
   text-decoration: none;
   Color: #ffea4d;
   background-color: black;
@@ -190,18 +194,15 @@ nav a:hover {
 .column {
   background: #FFFFFF0D;
   border: 2px solid #ff3030;
-  ;
-
   border-radius: 10px;
   padding: 10px;
+  
 }
-
 
 .main {
   padding-top: 5px;
   padding-inline: 20px;
-  flex: 3;
-  min-width: 300px;
+  flex: 3 1;
 
 }
 
@@ -223,6 +224,7 @@ nav a:hover {
   min-width: 200px;
 
 }
+
 
 
 
@@ -298,8 +300,6 @@ nav a:hover {
   flex-direction: column;
   gap: 10px;
 }
-
-
 
 
 
@@ -387,11 +387,15 @@ p a {
   transition: all 0.3s ease;
 }
 
-/*RESPONSIVE PAGE ELEMENTS*/
+/*INSERT COIN FLASHING EFFECT
+BASED ON
+https://www.geeksforgeeks.org/css/how-to-create-blinking-text-using-css/?utm_source=chatgpt.com
+*/
+
 
 .insert-coin {
   text-align: center;
-  font-family:  monospace;
+  font-family:  monospace,'sans-serif';
   font-size: 15px;
   color: #ffea00;
   border: 2px solid #ff3030;
@@ -411,7 +415,7 @@ p a {
 /*RESPONSIVE PAGE ELEMENTS*/
 
 @media (max-width: 400px) {
-  nal ul {
+  nav ul {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0px;
@@ -420,12 +424,12 @@ p a {
   nav a {
     font-size: 0.95em;
     padding: 10px 20px;
-    ;
+    
   }
 }
 
 @media (max-width: 700px) {
-  nal ul {
+  nav ul {
     flex-direction: column;
     align-items: center;
     gap: 10px;
@@ -471,14 +475,19 @@ nav a {
   position: relative;
   display: flex;
 justify-content: center;
-margin: 0 auto;
 align-items: center;
 width: fit-content;
   max-width: 100%;
   border: 2px solid #ff3030;
     border-radius: 10px;
    overflow: hidden;
+margin:0 auto;
+
 }
 
-
+.video-container iframe {
+  margin: -10px;
+   max-width: 100%;
+  display: block;
+}
 
