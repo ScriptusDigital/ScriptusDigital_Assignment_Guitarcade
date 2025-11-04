@@ -427,6 +427,7 @@ https://www.geeksforgeeks.org/css/how-to-create-blinking-text-using-css/?utm_sou
   border: 2px solid #ff3030;
   padding: 10px;
   border-radius: 7px;
+  margin: 0;
   animation: blink1 2s steps(10, start) infinite;
 }
 
