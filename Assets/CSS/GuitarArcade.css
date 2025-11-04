@@ -12,7 +12,9 @@
     padding: 0;
     font-family: Orbitron, sans-serif;
     color: white;
-background-image: url("Assets/Images/Background11.jpg");
+
+background-image: url("/Assets/Images/Background11.jpg");
+
 
     background-position: center;
     background-attachment: fixed;
@@ -356,7 +358,7 @@ color: white;
 
 .social-links a:hover img {
   transform: scale(1.02);
-  content: url('/Assets/Images/SocialHover3.jpg');
+  content: url('Assets/Images/SocialHover3.jpg');
   transition: all 0.5s ease;
   border: 2px solid #ff3030;
   
@@ -557,7 +559,7 @@ th {
 
   text-align: left;
   overflow-wrap: break-word;
-  background: #ff303033;
+  background: #9b686833;
 
   font-family: 'Russo One', sans-serif;
   text-transform: uppercase;
