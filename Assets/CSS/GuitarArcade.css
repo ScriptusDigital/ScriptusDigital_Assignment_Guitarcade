@@ -428,12 +428,12 @@ https://www.geeksforgeeks.org/css/how-to-create-blinking-text-using-css/?utm_sou
   padding: 10px;
   border-radius: 7px;
   margin: 0;
-  animation: blink1 2s steps(10, start) infinite;
+  animation: blink1 3s steps(10, start) infinite;
 }
 
 @keyframes blink1 {
-  90% {
-    opacity: 0;
+  100% {
+    opacity: 0.4;
   }
 }
 
