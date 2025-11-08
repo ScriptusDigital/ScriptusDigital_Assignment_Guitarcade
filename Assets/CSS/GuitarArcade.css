@@ -52,7 +52,7 @@ header {
 /*MAIN TITLES AND FONTS*/
 h1 {
   position: relative;
-  font-family: Russo One, arial;
+  font-family: 'Russo One', arial;
   line-height: 1;
   font-size: clamp(1rem, 8vw, 11rem);
 
@@ -164,7 +164,7 @@ nav a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  font-family: Russo One, sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 0.95em;;
   text-decoration: none;
   color: #ffea4d;
@@ -754,7 +754,7 @@ h2 {
 
 h4 {
   color: #36b3ff;
-  font-family: 'Orbitron', sans serif;
+  font-family: 'Orbitron', 'sans serif';
   text-align: center;
   font-size: 1.5em;
   margin-bottom: 10px;
