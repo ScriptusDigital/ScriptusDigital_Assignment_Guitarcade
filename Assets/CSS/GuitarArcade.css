@@ -105,7 +105,7 @@ header h1 a:hover {
 }
 
 
-blockquote {
+h2 {
   font-family: 'Audiowide', 'sans-serif';
   text-align: center;
   color: #36b3ff;
@@ -140,7 +140,7 @@ margin-bottom: 15px;
 
 nav li {
   display: flex;
-  min-width: 130px;
+  min-width: 134px;
   max-width: 280px;
 }
 
@@ -165,7 +165,7 @@ nav a {
   justify-content: center;
   width: 100%;
   font-family: 'Russo One', sans-serif;
-  font-size: 0.95em;;
+  font-size: 0.85em;
   text-decoration: none;
   color: #ffea4d;
   background-color: black;
@@ -531,6 +531,8 @@ nav a {
 
 }
 
+
+
 .video-container iframe {
   margin: -10px;
   max-width: 100%;
@@ -540,15 +542,16 @@ nav a {
 /*LESSON PAGE TABLE*/
 
 .table-container1 {
-  width: 100%;
-  margin: 0 -2px;
+  width: 99%;
+  margin: 0 auto;
   border: 3px solid #ff3030;
    border-radius: 10px;
-justify-content: center;
+
 }
 
 table {
-
+ width: 100%;
+  overflow-wrap: break-word;
   table-layout: fixed;
   border-radius: 8px;
   background: #FFFFFF0D;
@@ -556,13 +559,20 @@ table {
   color: #ffea4d;
   overflow: hidden;
   font-size: 0.9em;
+  white-space: normal;
 }
 
+table caption {
+  caption-side: bottom;
+  padding: 8px 12px;
+  font-family: 'Audiowide', 'sans serif';
+  
+}
 
 /*LESSON PAGE TABLE ELEMENTS*/
 td {
   padding: 6px 8px;
-  border-bottom: 1px solid #ff32324d;
+
   color: #e7aa69;
   text-align: left;
   overflow-wrap: break-word;
@@ -625,7 +635,7 @@ based on https://www.w3schools.com/html/html_forms.asp
   font-size: 1em;
   color: #ffea00;
   margin-bottom: 10px;
-  letter-spacing: 1;
+  letter-spacing: 1px;
   text-transform: uppercase
 }
 
@@ -742,7 +752,7 @@ flex-basis: 200px;
 
 /*ARTICLES PAGE ELEMENT
 */
-h2 {
+h5 {
   color:#ffea00;
   font-family: 'Russo One', 'sans serif';
   text-align: center;
