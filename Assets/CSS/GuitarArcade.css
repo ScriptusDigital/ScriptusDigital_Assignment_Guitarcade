@@ -156,12 +156,16 @@ nav ul {
   gap: 40px;
 }
 
+
+
+
 nav a {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   font-family: Russo One, sans-serif;
+  font-size: 0.95em;;
   text-decoration: none;
   color: #ffea4d;
   background-color: black;
@@ -212,7 +216,10 @@ nav a:hover {
   flex: 2;
   flex-basis: 450px;
   min-width: 0;
+
 }
+
+
 
 
 
@@ -455,15 +462,20 @@ https://www.geeksforgeeks.org/css/how-to-create-blinking-text-using-css/?utm_sou
   }
 }
 
+
+
 @media (max-width: 700px) {
   nav ul {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    gap: 8px;
+      padding: 0;
+    margin: 0
   }
 }
 
-@media (max-width:900px) {
+@media (max-width:750px) {
   nav ul {
     gap: 4px;
     flex-direction: column;
@@ -484,6 +496,8 @@ https://www.geeksforgeeks.org/css/how-to-create-blinking-text-using-css/?utm_sou
   }
 }
 
+
+
 nav a {
   padding: 8px 0;
 }
@@ -496,6 +510,9 @@ nav a {
   .article-blurb {
     font-size: 0.75em;
   }
+
+
+
 
 }
 
@@ -783,3 +800,23 @@ box-sizing: border-box;
 text-align:center;}
 
 
+/*ORDERING OF SECTIONS IN RESIZE*/
+@media (max-width: 900px) {
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main {
+  order: 1;
+  flex-basis: 100%;
+}
+.left {
+  order: 2;
+  flex-basis: 100%;
+}
+.right-group
+{
+  order: 3;
+  flex-basis: 100%;
+}
+}
