@@ -212,7 +212,7 @@ nav a:hover {
 }
 
 .main {
-  padding-inline: 20px;
+  padding-inline:  20px;
   flex: 2;
   flex-basis: 450px;
   min-width: 0;
@@ -541,19 +541,20 @@ nav a {
 
 .table-container1 {
   width: 100%;
-  margin: 0px 0;
+  margin: 0 -2px;
+  border: 3px solid #ff3030;
+   border-radius: 10px;
+justify-content: center;
 }
 
 table {
-  width: 100%;
+
   table-layout: fixed;
   border-radius: 8px;
   background: #FFFFFF0D;
   border-collapse: collapse;
   color: #ffea4d;
-
   overflow: hidden;
-  margin: 5px 0;
   font-size: 0.9em;
 }
 
