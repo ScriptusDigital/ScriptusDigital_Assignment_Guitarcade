@@ -71,7 +71,7 @@ h1 {
 }
 
 
-/*  GLOW SHADOW EFFECT BASED ON https://www.w3schools.com/howto/howto_css_glowing_text.asp?utm_source=chatgpt.com */
+/*  GLOW SHADOW EFFECT BASED ON https://www.w3schools.com/howto/howto_css_glowing_text.asp?utm_source*/
 
 @keyframes titlepulse {
 
@@ -435,7 +435,7 @@ p a {
 
 /*INSERT COIN FLASHING EFFECT
 BASED ON
-https://www.geeksforgeeks.org/css/how-to-create-blinking-text-using-css/?utm_source=chatgpt.com
+https://www.geeksforgeeks.org/css/how-to-create-blinking-text-using-css/?
 */
 
 
@@ -701,7 +701,7 @@ based on https://www.w3schools.com/html/html_forms.asp
   background-color: #000;
   border: 2px solid #ff3030;
   border-radius: 8px;
-  ;
+  
   font-size: 1em;
   color: #ffff00;
   box-sizing: border-box;
